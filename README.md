@@ -1,2 +1,2 @@
 # IkeaSim
-Factory game with infinite world.
+Low-poly factory game with infinite world.

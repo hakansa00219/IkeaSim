@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a714cf3bfa26248904cbc111482e17, type: 3}
+  m_Name: Iron
+  m_EditorClassIdentifier: 
+  name: Iron
+  typeOfObjectsToSpawn:
+  - {fileID: 5958477311092699395, guid: 8bc4958d1b25a1f47bd13058d419fa88, type: 3}
+  - {fileID: 5747631272515557823, guid: fedf0e2cda803824596fe85fb223044d, type: 3}
+  - {fileID: 2180704245848811156, guid: 2e022b28137fa484795e455fb8c8b558, type: 3}
+  - {fileID: 78816842793612200, guid: 9dda9d7681e41434cb71ec5a24e17b8f, type: 3}
+  countToSpawnEachChunk: 3
+  minSpawnHeightLimit: 0
+  maxSpawnHeightLimit: 0.35
+  properties:
+    health: 5
+    spawnType: 2
+    respawnable: 0
+    destroyable: 0
+    dropLoots: 0
+    lootsObjects: []

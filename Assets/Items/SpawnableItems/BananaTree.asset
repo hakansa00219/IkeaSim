@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a714cf3bfa26248904cbc111482e17, type: 3}
+  m_Name: BananaTree
+  m_EditorClassIdentifier: 
+  name: Banana Tree
+  typeOfObjectsToSpawn:
+  - {fileID: 6498478155588978544, guid: c83447e8cfe1e1441ace7c74039063bf, type: 3}
+  - {fileID: 5128865979183834039, guid: 3ec1c6bb495edd944856234225d4fa86, type: 3}
+  - {fileID: 4886618137698006431, guid: fa73ef17f32795b48b911ca56a326de9, type: 3}
+  countToSpawnEachChunk: 5
+  minSpawnHeightLimit: 0
+  maxSpawnHeightLimit: 0.05
+  properties:
+    health: 2
+    spawnType: 1
+    respawnable: 0
+    destroyable: 0
+    dropLoots: 0
+    lootsObjects: []
